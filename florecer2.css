@@ -1,0 +1,167 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: none;
+    box-sizing: border-box;
+}
+.contenido-adicional{
+    display: none;
+}
+.card:hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.card .p{
+    font-size: small;
+}
+h1{
+text-align: center;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url('imagenes/florecerr.gif');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+#menu{
+    height: 90px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #aeadaf;
+    position: fixed;
+    z-index: 10;
+}
+input{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+}
+
+#menu img{
+    margin-left: 800px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+#menu ul li i{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    /*para que este centrado*/
+    line-height: 45px;
+    margin-right: 10px;
+    color: #8768a5;
+    text-align: center;
+    transition: all 300ms ease;
+}
+#menu ul li i:hover{
+    color: rgb(9, 255, 0);
+}
+
+#menu ul li a:hover{
+    background-color: #8768a5;
+}
+button{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #8768a5;
+}
+.card{
+    width: 286px;
+    height: 286px;
+}
+h2{
+    text-align: center;
+}
+#obstaculos{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #8768a5;
+}
+/* un mejor tipo de letra*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.pie-de-pagina{
+    width: 100%;
+    background-color: #aeadaf;
+}
+.pie-de-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    /*que se repita 3 columnas y que ocupen todo el ancho las 3 colmnas
+    grid gap es para el margen de cada columna 
+    */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-de-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+.pie-de-pagina .grupo-1 .box h5{
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #8768a5;
+}
+.pie-de-pagina .grupo-1 .box p {
+    margin-bottom: 10px;
+}
+.pie-de-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    /*para que este centrado*/
+    line-height: 45px;
+    margin-right: 10px;
+    color: #8768a5;
+    text-align: center;
+    background-color: white;
+    transition: all 300ms ease;
+}
+.pie-de-pagina .grupo-1 .red-social a:hover{
+    color: rgb(9, 255, 0);
+}
+.pie-de-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+}
+.pie-de-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
